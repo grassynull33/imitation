@@ -1,19 +1,42 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+// CSS goes here
+import './reset.css';
 import './App.css';
+
+// COMPONENTS go here
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+
+import Facebook from './Facebook/Facebook';
+import Google from './Google/Google';
+import Amazon from './Amazon/Amazon';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <nav>
+              <ul>
+                <li><Link to="/Facebook">Facebook</Link></li>
+                <li><Link to="/Google">Google</Link></li>
+                <li><Link to="/Amazon">Amazon</Link></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div className="site-content">
+            <Route path="/Facebook" component={Facebook}/>
+            <Route path="/Google" component={Google}/>
+            <Route path="/Amazon" component={Amazon}/>
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      </Router>
     );
   }
 }
