@@ -18,8 +18,11 @@ class Amazon extends Component {
           <div className="top-header">
             <img src="" alt="Amazon" className="logo"/>
             <form action="">
+              <select name="department" id="shop-dept">
+                <option value="all">All</option>
+              </select>
               <input type="text"/>
-              <input type="submit"/>
+              <button><img src="" alt="Search"/></button>
             </form>
           </div>
           <div className="bot-header">
@@ -34,7 +37,7 @@ class Amazon extends Component {
                 <li>Sell</li>
                 <li>Help</li>
               </ul>
-              <ul>
+              <ul className="your-account">
                 <li>Language</li>
                 <li>Accounts &amp; Lists</li>
                 <li>Orders</li>
@@ -182,15 +185,19 @@ class Amazon extends Component {
             </select>
           </div>
           <div className="directory">
-            <h2>Directory</h2>
+            <div className="directory-container">
+              <h2>Directory</h2>
+            </div>
           </div>
           <div className="copyright">
-            <ul>
-              <li>Conditions of Use</li>
-              <li>Privacy Notice</li>
-              <li>Interest-Based Ads</li>
-            </ul>
-            <small>&copy; 1996-2017, Amazon.com, Inc. or its affiliates</small>
+            <div className="copyright-container">
+              <ul>
+                <li>Conditions of Use</li>
+                <li>Privacy Notice</li>
+                <li>Interest-Based Ads</li>
+              </ul>
+              <small>&copy; 1996-2017, Amazon.com, Inc. or its affiliates</small>
+            </div>
           </div>
         </footer>
       </section>

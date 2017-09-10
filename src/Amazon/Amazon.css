@@ -4,11 +4,11 @@
 
 .Amazon .intro-ad {
   display: flex;
-  padding: 0.7em 2em;
+  padding: 0.5em 7em;
   text-transform: uppercase;
   align-items: center;
-  font-size: 1.1em;
-  letter-spacing: 0.05em;
+  font-size: 1.05em;
+  letter-spacing: 0.04em;
 }
 
 .Amazon .intro-ad button {
@@ -25,7 +25,7 @@
 .Amazon > header {
   background: darkblue;
   color: #fff;
-  padding: 0.8em 1.8em;
+  padding: 0.8em 1.8em 0 1.8em;
 }
 
 .Amazon header .top-header {
@@ -33,18 +33,40 @@
   align-items: center;
 }
 
-.Amazon header input[type="text"] {
-  height: 30px;
+.Amazon header select {
   margin-left: 4em;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  border: none;
+  font-size: 0.8em;
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px 0 0 4px;
 }
 
-.Amazon header input[type="submit"] {
-  
+.Amazon header input[type="text"] {
+  height: 40px;
+  box-sizing: border-box;
+  width: 800px;
+  max-width: 800px;
+}
+
+.Amazon header button {
+  height: 40px;
+  border: none;
+  color: darkblue;
+  background: goldenrod;
+  box-sizing: border-box;
+  border-radius: 0px 4px 4px 0;
 }
 
 .Amazon header .bot-header {
-  display: flex;
-  padding: 0.8em 0;
+  padding: 0.8em 0 0.6em 0;
+}
+
+.Amazon header .bot-header nav {
+
 }
 
 .Amazon header .bot-header nav ul {
@@ -63,16 +85,23 @@
 .Amazon header .bot-header nav .your-amazon {
   font-size: 0.9em;
   opacity: 0.8;
+
 }
 
 .Amazon header .bot-header nav .your-amazon li:not(:last-child) {
   margin-right: 1.5em;
 }
 
+.Amazon header .bot-header nav .your-account {
+  float: right;
+}
+
 .Amazon > main {
   display: flex;
   padding-top: 1em;
   padding-bottom: 4em;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .Amazon > main .panel {
@@ -119,7 +148,7 @@
   font-size: 0.8em;
   padding: 0.6em;
   border: 1px solid rgba(0,0,0,0.2);
-  background: gold;
+  background: goldenrod;
   border-radius: 3px;
   margin-bottom: 18em;
 }
@@ -132,6 +161,8 @@
   width: 100%;
   height: 20em;
   background: lightblue;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .Amazon footer {
@@ -154,6 +185,8 @@
 .Amazon footer main {
   display: flex;
   padding: 2.5em 0.7em;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .Amazon footer main h5 {
@@ -177,6 +210,8 @@
   text-align: center;
   padding-bottom: 3em;
   padding-top: 1em;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .Amazon footer .select img {
@@ -203,11 +238,21 @@
   font-size: 0.7em;
 }
 
+.Amazon footer .directory .directory-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .Amazon footer .copyright {
   background: black;
   text-align: center;
   font-size: 0.75em;
   padding: 2em;
+}
+
+.Amazon footer .copyright .copyright-container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .Amazon footer .copyright ul {
