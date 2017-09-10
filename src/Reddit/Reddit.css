@@ -1,0 +1,61 @@
+.Reddit {
+  font-family: arial, sans-serif;
+}
+
+.Reddit .subreddits {
+  background: #ddd;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding: 0 0.2em 0.1em 0.2em;
+}
+
+.Reddit .subreddits ul {
+  display: inline;
+}
+
+.Reddit .subreddits ul:not(:last-child) {
+  margin-right: 1em;
+}
+
+.Reddit .subreddits ul li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+
+.Reddit .subreddits ul li:not(:last-child) {
+  margin-right: 1em;
+}
+
+.Reddit header {
+  display: flex;
+  height: 50px;
+  background: lightblue;
+  align-items: flex-end;
+}
+
+.Reddit header img {
+  margin-right: 4em;
+}
+
+.Reddit header ul {
+  flex: 1;
+}
+
+.Reddit header ul li {
+  display: inline;
+  background: lightgray;
+  padding: 0.1em 0.5em 0 0.5em;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.Reddit header ul li:not(:last-child) {
+  margin-right: 0.4em;
+}
+
+.Reddit header .sign-in {
+  font-size: 0.7em;
+  background: lightgray;
+  padding: 0.4em 0.3em 0.4em 0.3em;
+}

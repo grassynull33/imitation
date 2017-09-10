@@ -13,7 +13,7 @@ class Facebook extends Component {
           <div className="container">
             <img src="" alt="Facebook"/>
             <input type="text" placeholder="Search"/>
-            <img src="" alt="Profile Pic" />
+            <img src="" alt="Profile" />
             <ul>
               <li>John</li>
               <li>Home</li>
@@ -80,11 +80,11 @@ class Facebook extends Component {
               </ul>
             </div>
             <div className="panel">
-              <img src="" alt="Profile pic"/>
+              <img src="" alt="Profile"/>
               <h2>Jane Doe updated her cover photo.</h2>
               <small>4 hrs &middot; Public</small>
               <h3>Text goes here</h3>
-              <img src="" alt="New cover photo"/>
+              <img src="" alt="New cover"/>
               <ul>
                 <li>Like</li>
                 <li>Comment</li>
