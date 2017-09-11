@@ -15,6 +15,7 @@ import Facebook from './Facebook/Facebook';
 import Google from './Google/Google';
 import Amazon from './Amazon/Amazon';
 import Reddit from './Reddit/Reddit';
+import Wikipedia from './Wikipedia/Wikipedia';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
                 <li><Link to="/Google">Google</Link></li>
                 <li><Link to="/Amazon">Amazon</Link></li>
                 <li><Link to="/Reddit">Reddit</Link></li>
+                <li><Link to="/Wikipedia">Wikipedia</Link></li>
               </ul>
             </nav>
           </header>
@@ -37,6 +39,7 @@ class App extends Component {
             <Route path="/Google" component={Google}/>
             <Route path="/Amazon" component={Amazon}/>
             <Route path="/Reddit" component={Reddit}/>
+            <Route path="/Wikipedia" component={Wikipedia}/>
           </div>
         </div>
       </Router>

@@ -1,0 +1,29 @@
+.Wikipedia {
+  display: flex;
+  font-size: 1em;
+  font-family: arial, sans-serif;
+}
+
+.Wikipedia .sidebar {
+  font-size: 0.8em;
+  width: 175px;
+  border: 2px solid yellow;
+}
+
+.Wikipedia .sidebar h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+  padding-left: 1.6em;
+}
+
+.Wikipedia .sidebar ul {
+  padding-left: 1.6em;
+}
+
+.Wikipedia .sidebar ul li {
+  line-height: 1.5;
+}
+
+.Wikipedia main {
+  flex: 1;
+}
