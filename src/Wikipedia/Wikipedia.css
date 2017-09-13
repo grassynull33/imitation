@@ -10,6 +10,10 @@
   border: 2px solid yellow;
 }
 
+.Wikipedia .sidebar img {
+  margin-bottom: 10em;
+}
+
 .Wikipedia .sidebar h6 {
   margin-top: 1.5em;
   margin-bottom: 0.7em;
@@ -22,8 +26,29 @@
 
 .Wikipedia .sidebar ul li {
   line-height: 1.5;
+  color: darkblue;
 }
 
 .Wikipedia main {
   flex: 1;
+  font-size: 0.8em;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.Wikipedia main nav {
+  float: right;
+}
+
+.Wikipedia main nav ul {
+  display: inline;
+  margin-left: 1em;
+}
+
+.Wikipedia main nav ul li {
+  display: inline;
+}
+
+.Wikipedia main nav ul li:not(:last-child) {
+  margin-right: 1em;
 }

@@ -40,7 +40,15 @@ class Wikipedia extends Component {
           </ul>
         </div>
         <main>
-          Main
+          <nav>
+            <small>Not logged in</small>
+            <ul>
+              <li>Talk</li>
+              <li>Contributors</li>
+              <li>Create account</li>
+              <li>Log in</li>
+            </ul>
+          </nav>
         </main>
       </section>
     );
