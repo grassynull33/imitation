@@ -16,6 +16,7 @@ import Google from './Google/Google';
 import Amazon from './Amazon/Amazon';
 import Reddit from './Reddit/Reddit';
 import Wikipedia from './Wikipedia/Wikipedia';
+import YouTube from './YouTube/YouTube';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
                 <li><Link to="/Amazon">Amazon</Link></li>
                 <li><Link to="/Reddit">Reddit</Link></li>
                 <li><Link to="/Wikipedia">Wikipedia</Link></li>
+                <li><Link to="/YouTube">YouTube</Link></li>
               </ul>
             </nav>
           </header>
@@ -40,6 +42,7 @@ class App extends Component {
             <Route path="/Amazon" component={Amazon}/>
             <Route path="/Reddit" component={Reddit}/>
             <Route path="/Wikipedia" component={Wikipedia}/>
+            <Route path="/YouTube" component={YouTube}/>
           </div>
         </div>
       </Router>

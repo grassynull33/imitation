@@ -1,0 +1,12 @@
+.YouTube body {
+
+}
+
+.YouTube header {
+  display: flex;
+  background: #fff;
+}
+
+.YouTube main {
+  background: #ddd;
+}
