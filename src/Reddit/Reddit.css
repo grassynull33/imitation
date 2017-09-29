@@ -59,3 +59,20 @@
   background: lightgray;
   padding: 0.4em 0.3em 0.4em 0.3em;
 }
+
+.Reddit main {
+  display: flex;
+  align-items: stretch;
+}
+
+.Reddit main .left-bar {
+
+}
+
+.Reddit main .main-posts {
+
+}
+
+.Reddit main .right-bar {
+
+}

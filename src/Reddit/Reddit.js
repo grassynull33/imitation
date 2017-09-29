@@ -51,7 +51,15 @@ class Reddit extends Component {
         </header>
 
         <main>
-          
+          <div className="left-bar">
+            
+          </div>
+          <div className="main-posts">
+
+          </div>
+          <div className="right-bar">
+
+          </div>
         </main>
       </section>
     );
